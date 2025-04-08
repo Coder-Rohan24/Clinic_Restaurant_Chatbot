@@ -1,14 +1,5 @@
 import menuData from "../../../data/restaurant_menu.json";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-// API URLs & Keys
-// const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateText";
-// const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const COHERE_API_KEY = process.env.COHERE_API_KEY;
-
-/**
- * Extract structured filters from user query using Gemini
- */
-
 
 // Initialize Gemini Client
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
@@ -33,52 +24,43 @@ async function extractFiltersUsingGemini(userQuery) {
       "restaurant": "Dominos",
       "ingredients": ["cheese", "tomato"],
       "spiciness": "Medium",
-      "gluten_free":"Yes"
+      "gluten_free": "Yes"
     }`;
 
     try {
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
         const response = await model.generateContent(prompt);
-
-        console.log("Raw Gemini Response:", response);
-
-        // Extract response text
         let textResponse = response.response.candidates[0].content.parts[0].text;
-
-        // 🔹 Remove Markdown formatting if present
         textResponse = textResponse.replace(/```json/g, "").replace(/```/g, "").trim();
-
         return JSON.parse(textResponse || "{}");
-
     } catch (error) {
-        console.error("Gemini API Error:", error);
+        console.error("Gemini API Error (extract filters):", error);
         return {};
     }
 }
-
 
 /**
  * Filter menu items based on extracted filters
  */
 function filterMenuItems(filters) {
     return menuData.filter(dish => {
-        let matchesDiet = filters.dietary 
+        const matchesDiet = filters.dietary
             ? dish.dietary_info.toLowerCase() === filters.dietary.toLowerCase()
             : true;
 
-        let matchesPrice = filters.price_range 
-            ? dish.Price && dish.Price <= filters.price_range 
+        const matchesPrice = filters.price_range
+            ? dish.Price && dish.Price <= filters.price_range
             : true;
 
-        let matchesRestaurant = filters.restaurant 
-            ? dish.restaurant_name.toLowerCase().includes(filters.restaurant.toLowerCase()) 
+        const matchesRestaurant = filters.restaurant
+            ? dish.restaurant_name.toLowerCase().includes(filters.restaurant.toLowerCase())
             : true;
 
-        let matchesSpiciness = filters.spiciness
+        const matchesSpiciness = filters.spiciness
             ? dish["Spice-Level"] && dish["Spice-Level"].toLowerCase() === filters.spiciness.toLowerCase()
             : true;
 
-        let matchesGlutenFree = filters.ingredients.includes("gluten-free") 
+        const matchesGlutenFree = filters.ingredients.includes("gluten-free")
             ? dish["Gluten-Free"] && dish["Gluten-Free"].toLowerCase() === "yes"
             : true;
 
@@ -93,129 +75,104 @@ async function validateDishesWithGemini(dishes, filters) {
     if (dishes.length === 0) return [];
 
     const validationPrompt = `Validate the following dishes based on user preferences:
-    - User Requested Dietary Preference: "${filters.dietary || 'None'}"
-    - User Requested Restaurant: "${filters.restaurant || 'None'}"
-    - User Requested Price Range: "${filters.price_range || 'None'}"
-    - User Requested Gluten-Free: "${filters.gluten_free === "Yes" ? "Yes" : "No"}"
+- Dietary Preference: "${filters.dietary || 'None'}"
+- Restaurant: "${filters.restaurant || 'None'}"
+- Price Range: "${filters.price_range || 'None'}"
+- Gluten-Free: "${filters.gluten_free === "Yes" ? "Yes" : "No"}"
 
-    Return a JSON array where each object contains:
-    {
-      "dish_name": "Dish Name",
-      "is_valid": true or false,
-      "reason": "Why the dish is valid/invalid"
-    }
+Return a JSON array where each object contains:
+{
+  "dish_name": "Dish Name",
+  "is_valid": true or false,
+  "reason": "Why the dish is valid/invalid"
+}
 
-    Dishes to validate:
-    ${dishes.map(dish => `- ${dish.dish_name}: ${dish.description}, Gluten-Free: ${dish["Gluten-Free"]}, Price: ${dish.Price}`).join("\n")}`;
+Dishes to validate:
+${dishes.map(dish => `- ${dish.dish_name}: ${dish.description}, Gluten-Free: ${dish["Gluten-Free"]}, Price: ${dish.Price}`).join("\n")}`;
 
     try {
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
         const response = await model.generateContent(validationPrompt);
+        let textResponse = response.response.candidates[0].content.parts[0].text;
+        textResponse = textResponse.replace(/```json/g, "").replace(/```/g, "").trim();
+        const validationResults = JSON.parse(textResponse || "[]");
 
-        console.log("Raw Gemini Validation Response:", response);
-
-        // **Extract response text & remove Markdown formatting**
-        let textResponse = response.response.candidates[0].content.parts[0].text
-            .replace(/```json/g, "")
-            .replace(/```/g, "")
-            .trim();
-
-        // **Parse JSON response**
-        let validationResults = JSON.parse(textResponse || "[]");
-
-        // **Filter valid dishes**
-        let validDishes = dishes.filter(dish =>
+        return dishes.filter(dish =>
             validationResults.some(result => result.dish_name === dish.dish_name && result.is_valid)
         );
-
-        return validDishes;
-
     } catch (error) {
         console.error("Gemini Validation Error:", error);
-        return dishes;  // **Fallback: return all filtered dishes if Gemini validation fails**
+        return dishes; // Fallback: return all dishes if validation fails
     }
 }
 
 /**
- * Generate structured response with Cohere
+ * Generate final response using Gemini
  */
-async function generateCohereResponse(prompt) {
+async function generateGeminiResponse(userQuery, validatedDishes) {
+    const prompt = `Based on the following user query and matching dishes, generate a helpful and concise response:
+
+User Query: "${userQuery}"
+
+Matching Dishes:
+${validatedDishes.map(d => `- ${d.dish_name}: ${d.description} (Price: ₹${d.Price})`).join("\n")}
+
+Return a friendly response that:
+- Mentions 2-3 matching dishes by name
+- Highlights dietary or spiciness preferences if matched
+- Is short and helpful (within 3-4 lines)`;
+
     try {
-        const response = await fetch("https://api.cohere.ai/v1/generate", {
-            method: "POST",
-            headers: {
-                "Authorization": `Bearer ${COHERE_API_KEY}`,
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ model: "command", prompt, max_tokens: 200 })
-        });
-
-        const data = await response.json();
-        return data.generations?.[0]?.text || "I'm sorry, I couldn't generate a response.";
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+        const response = await model.generateContent(prompt);
+        const textResponse = response.response.candidates[0].content.parts[0].text;
+        return textResponse.trim();
     } catch (error) {
-        console.error("Error fetching response from Cohere:", error);
-        return "An error occurred while processing your request.";
+        console.error("Gemini Response Generation Error:", error);
+        return "An error occurred while generating a response.";
     }
 }
 
 /**
- * Main API handler
+ * API Route Handler (Next.js - App Router)
  */
-// export default async function handler(req, res) {
-//     let userMessage = req.body.message.toLowerCase();
-
-//     // Step 1: Extract structured filters from query
-//     let filters = await extractFiltersUsingGemini(userMessage);
-//     console.log("Extracted Filters:", filters);
-
-//     // Step 2: Filter menu items based on extracted filters
-//     let filteredDishes = filterMenuItems(filters);
-//     console.log("Filtered Dishes:", filteredDishes);
-
-//     // Step 3: Validate dishes using Gemini
-//     let validatedDishes = await validateDishesWithGemini(filteredDishes, filters);
-//     console.log("Validated Dishes:", validatedDishes);
-
-//     // Step 4: Generate response using Cohere
-//     if (validatedDishes.length > 0) {
-//         const dishDetails = validatedDishes.map(d => `${d.dish_name} - ${d.description}`).join("\n");
-//         const response = await generateCohereResponse(`User Query: "${userMessage}". Matching Dishes: ${dishDetails}. Provide a structured response.`);
-//         return res.status(200).json({ reply: response });
-//     }
-
-//     // Step 5: If no validated dishes found, let AI handle the query
-//     // const aiResponse = await generateCohereResponse(userMessage);
-//     return res.status(200).json({ reply: "Not available" });
-// }
 export async function POST(req) {
     try {
         const body = await req.json();
-        let userMessage = body.message;
+        const userMessage = body.message;
 
-        // Step 1: Extract structured filters from query
-        let filters = await extractFiltersUsingGemini(userMessage);
+        // Step 1: Extract filters
+        const filters = await extractFiltersUsingGemini(userMessage);
         console.log("Extracted Filters:", filters);
 
-        // Step 2: Filter menu items based on extracted filters
-        let filteredDishes = filterMenuItems(filters);
+        // Step 2: Filter menu items
+        const filteredDishes = filterMenuItems(filters);
         console.log("Filtered Dishes:", filteredDishes);
 
-        // Step 3: Validate dishes using Gemini
-        let validatedDishes = await validateDishesWithGemini(filteredDishes, filters);
+        // Step 3: Validate dishes
+        const validatedDishes = await validateDishesWithGemini(filteredDishes, filters);
         console.log("Validated Dishes:", validatedDishes);
 
-        // Step 4: Generate response using Cohere
+        // Step 4: Generate Gemini response
         if (validatedDishes.length > 0) {
-            const dishDetails = validatedDishes.map(d => `${d.dish_name} - ${d.description}`).join("\n");
-            const response = await generateCohereResponse(`User Query: "${userMessage}". Matching Dishes: ${dishDetails}. Provide a structured response.`);
-            return new Response(JSON.stringify({ reply: response }), { status: 200, headers: { "Content-Type": "application/json" } });
+            const response = await generateGeminiResponse(userMessage, validatedDishes);
+            return new Response(JSON.stringify({ reply: response }), {
+                status: 200,
+                headers: { "Content-Type": "application/json" }
+            });
         }
 
-        // Step 5: If no validated dishes found
-        return new Response(JSON.stringify({ reply: "Not available" }), { status: 200, headers: { "Content-Type": "application/json" } });
+        // Step 5: No valid dishes
+        return new Response(JSON.stringify({ reply: "Sorry, no suitable dishes found for your preferences." }), {
+            status: 200,
+            headers: { "Content-Type": "application/json" }
+        });
 
     } catch (error) {
-        console.error("🔴 API Error:", error);
-        return new Response(JSON.stringify({ error: "An error occurred while processing your request." }), { status: 500, headers: { "Content-Type": "application/json" } });
+        console.error("🔴 Restaurant API Error:", error);
+        return new Response(JSON.stringify({ error: "An error occurred while processing your request." }), {
+            status: 500,
+            headers: { "Content-Type": "application/json" }
+        });
     }
 }
