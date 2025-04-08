@@ -1,0 +1,1802 @@
+[
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Chicken Zinger",
+      "description": "A delicious chicken zinger made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 150,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Veg Zinger",
+      "description": "A delicious veg zinger made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 130,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Krunchy Burger",
+      "description": "A delicious krunchy burger made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 160,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Rice Bowl with Pepsi",
+      "description": "A delicious rice bowl with pepsi made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 165,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Popcorn Chicken",
+      "description": "A delicious popcorn chicken made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 165,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Smoky Grilled",
+      "description": "A delicious smoky grilled made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 200,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Mingles Bucket (3 Boneless Strips & 6 Hot Wings)",
+      "description": "A delicious mingles bucket (3 boneless strips & 6 hot wings) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 249,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Duo Bucket Meal (4 Hot & Crispy or 6 Boneless Strips + 2 Pepsi)",
+      "description": "A delicious duo bucket meal (4 hot & crispy or 6 boneless strips + 2 pepsi) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 469,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Dips Bucket (12 Boneless Strips + 4 Dips)",
+      "description": "A delicious dips bucket (12 boneless strips + 4 dips) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 479,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Big 8 (4 pc Smoky Grilled & 4 pc Hot & Crispy)",
+      "description": "A delicious big 8 (4 pc smoky grilled & 4 pc hot & crispy) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 449,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Big 8 Meal (4 pc Hot Wings & 2 Pepsi)",
+      "description": "A delicious big 8 meal (4 pc hot wings & 2 pepsi) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 599,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Chick & Share (Extra Large Popcorn or 5 pc Hot & Crispy or 10 pc Strips)",
+      "description": "A delicious chick & share (extra large popcorn or 5 pc hot & crispy or 10 pc strips) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 365,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Chick & Share Meal (3 Pepsi)",
+      "description": "A delicious chick & share meal (3 pepsi) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 469,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Friendship Bucket (3 Hot & Crispy, 3 Smoky Grilled, Large Popcorn)",
+      "description": "A delicious friendship bucket (3 hot & crispy, 3 smoky grilled, large popcorn) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 615,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Friendship Bucket Meal (2 Pepsi)",
+      "description": "A delicious friendship bucket meal (2 pepsi) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 660,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 3,
+      "restaurant_name": "KFC",
+      "dish_name": "Triple Treat (3 Hot & Crispy, 3 Smoky Grilled, 6 Boneless Strips)",
+      "description": "A delicious triple treat (3 hot & crispy, 3 smoky grilled, 6 boneless strips) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 649,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Ilish Paturi (1 pc boneless)",
+      "description": "A delicious ilish paturi (1 pc boneless) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Ilish Beguner Jhol (1 pc)",
+      "description": "A delicious ilish beguner jhol (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Bhapa Ilish (1 pc)",
+      "description": "A delicious bhapa ilish (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chitol Machher Muitha (6 pcs)",
+      "description": "A delicious chitol machher muitha (6 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 305,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Katla Machher Roast (1 pc)",
+      "description": "A delicious katla machher roast (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 170,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Murgir Jhol (2 pcs)",
+      "description": "A delicious murgir jhol (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Kanchalanka Dhonepata Murgi (2 pcs)",
+      "description": "A delicious kanchalanka dhonepata murgi (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 215,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Kosha Mangsho (2 pcs)",
+      "description": "A delicious kosha mangsho (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mangsher Jhol (2 pcs)",
+      "description": "A delicious mangsher jhol (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Potoler Dolma \u2013 Mutton Stuffing (2 pcs)",
+      "description": "A delicious potoler dolma \u2013 mutton stuffing (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 215,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Kadaiashutir Kouchuri (1 pc)",
+      "description": "A delicious kadaiashutir kouchuri (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 15,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Loochi (1 pc)",
+      "description": "A delicious loochi (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 12,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Kaju Kismis Pulao",
+      "description": "A delicious kaju kismis pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 90,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Steamed Rice",
+      "description": "A delicious steamed rice made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 45,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chingri Thora Cutlet (4 pcs)",
+      "description": "A delicious chingri thora cutlet (4 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 275,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Fish Fry with Kasundi (1 pc)",
+      "description": "A delicious fish fry with kasundi (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 155,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mouralla Machher Peyaji (10 pcs)",
+      "description": "A delicious mouralla machher peyaji (10 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 125,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mangsher Chop (1 pc)",
+      "description": "A delicious mangsher chop (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 95,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Gondhoraj Fried Chicken (2 pcs)",
+      "description": "A delicious gondhoraj fried chicken (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 155,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Ghana Mororishtur Chop (2 pcs)",
+      "description": "A delicious ghana mororishtur chop (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 135,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mochar Chop (2 pcs)",
+      "description": "A delicious mochar chop (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 95,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Dimer Devil (1 pc)",
+      "description": "A delicious dimer devil (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 155,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Loochi (5 pcs) with Bhaja Masala Aloor Dum",
+      "description": "A delicious loochi (5 pcs) with bhaja masala aloor dum made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 120,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Loochi (5 pcs) with Kosha Mangsho (2 pcs)",
+      "description": "A delicious loochi (5 pcs) with kosha mangsho (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 210,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mangsher Pulao (2 pcs Mutton + Raita + Salad)",
+      "description": "A delicious mangsher pulao (2 pcs mutton + raita + salad) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 210,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Morog Pulao (1 pc Chicken + Raita + Salad)",
+      "description": "A delicious morog pulao (1 pc chicken + raita + salad) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "NolenGur Ice Cream",
+      "description": "A delicious nolengur ice cream made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 135,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Channar Malpua (2 pcs)",
+      "description": "A delicious channar malpua (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 80,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mishti Doi",
+      "description": "A delicious mishti doi made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 65,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Aamporar Shorbot",
+      "description": "A delicious aamporar shorbot made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 55,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Gondhoraj Ghol",
+      "description": "A delicious gondhoraj ghol made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 55,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Fresh Lime Soda (Salty/Sweet)",
+      "description": "A delicious fresh lime soda (salty/sweet) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 55,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Basic Veg Thali",
+      "description": "A delicious basic veg thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 230,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Fish Thali (Katla)",
+      "description": "A delicious fish thali (katla) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 310,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Bhetki Thali",
+      "description": "A delicious bhetki thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 325,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chicken Thali",
+      "description": "A delicious chicken thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 355,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Mutton Thali",
+      "description": "A delicious mutton thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 355,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chingrir Malai Thali",
+      "description": "A delicious chingrir malai thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 650,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Ilish Thali",
+      "description": "A delicious ilish thali made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 650,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Aloo Bhaja (One bowl)",
+      "description": "A delicious aloo bhaja (one bowl) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 50,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Begun Bhaja (4 pcs)",
+      "description": "A delicious begun bhaja (4 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 75,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Posto Narkel Bora (2 pcs)",
+      "description": "A delicious posto narkel bora (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 85,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Cholar Dal",
+      "description": "A delicious cholar dal made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 75,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Dal of the Day",
+      "description": "A delicious dal of the day made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 75,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chhanar MalaiKari",
+      "description": "A delicious chhanar malaikari made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chhanar Kalia",
+      "description": "A delicious chhanar kalia made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Palang Chhanar Kofta (4 pcs)",
+      "description": "A delicious palang chhanar kofta (4 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Potoler Dolma \u2013 Veg (2 pcs)",
+      "description": "A delicious potoler dolma \u2013 veg (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Begun Basanti (4 pcs)",
+      "description": "A delicious begun basanti (4 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Veg Paturi (1 pc)",
+      "description": "A delicious veg paturi (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Chingrir Malaikari (2 pcs)",
+      "description": "A delicious chingrir malaikari (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Daab Chingri (2 pcs)",
+      "description": "A delicious daab chingri (2 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 315,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Bhetki ar Chingrir Paturi (1 pc)",
+      "description": "A delicious bhetki ar chingrir paturi (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 275,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Bhetki Paturi (1 pc)",
+      "description": "A delicious bhetki paturi (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 170,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 4,
+      "restaurant_name": "6th Ballygunge Place",
+      "dish_name": "Katla Machher Jhol (1 pc)",
+      "description": "A delicious katla machher jhol (1 pc) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 150,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Tandoori Aloo",
+      "description": "A delicious tandoori aloo made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 221,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Tandoor/Rumal Roti",
+      "description": "A delicious tandoor/rumal roti made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 30,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Chilli Dry",
+      "description": "A delicious paneer chilli dry made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 325,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Tandoori Butter Roti",
+      "description": "A delicious tandoori butter roti made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 36,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Crispy Chilli Baby Corn / Mushroom",
+      "description": "A delicious crispy chilli baby corn / mushroom made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 315,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Tandoori Naan / Aloo Paratha",
+      "description": "A delicious tandoori naan / aloo paratha made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 85,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Baby Corn / Mushroom Salt Pepper",
+      "description": "A delicious baby corn / mushroom salt pepper made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 315,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Butter / Naan Aloo / Paneer",
+      "description": "A delicious butter / naan aloo / paneer made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 90,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Masala Kulcha",
+      "description": "A delicious masala kulcha made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 90,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Tikka / Malai Tikka",
+      "description": "A delicious paneer tikka / malai tikka made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 330,
+      "Gluten-Free": "No",
+      "Spice-Level": "Medium"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Basmati Rice",
+      "description": "A delicious basmati rice made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 155,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Jeera Rice",
+      "description": "A delicious jeera rice made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 165,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Dal Rice",
+      "description": "A delicious dal rice made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 168,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Veg Pulao",
+      "description": "A delicious veg pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 205,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Veg Peas / Cheese Pulao",
+      "description": "A delicious veg peas / cheese pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Pulao",
+      "description": "A delicious paneer pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 245,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Jeera Paneer Rice",
+      "description": "A delicious jeera paneer rice made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 265,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Veg Paneer Pulao",
+      "description": "A delicious veg paneer pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 265,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Cheese Pulao",
+      "description": "A delicious paneer cheese pulao made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 295,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Green Peas Masala",
+      "description": "A delicious green peas masala made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 285,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Butter Masala",
+      "description": "A delicious paneer butter masala made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 295,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Do Plaza",
+      "description": "A delicious paneer do plaza made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 325,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Masala",
+      "description": "A delicious paneer masala made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 336,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Kadhai",
+      "description": "A delicious paneer kadhai made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 345,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Chilli Gravy",
+      "description": "A delicious paneer chilli gravy made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 345,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Tikka Malai Butter Masala",
+      "description": "A delicious paneer tikka malai butter masala made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 375,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Egg Biryani",
+      "description": "A delicious egg biryani made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 205,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Biryani",
+      "description": "A delicious chicken biryani made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 310,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Mutton Biryani",
+      "description": "A delicious mutton biryani made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 365,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Dal Tadka",
+      "description": "A delicious dal tadka made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Spl. Butter / Cream Tadka",
+      "description": "A delicious spl. butter / cream tadka made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 235,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Amritsari Butter Tadka",
+      "description": "A delicious amritsari butter tadka made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 255,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Spl. Dal Makhani",
+      "description": "A delicious spl. dal makhani made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 275,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Dal Makhani",
+      "description": "A delicious paneer dal makhani made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 295,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Spl. Yellow Dal Fry",
+      "description": "A delicious spl. yellow dal fry made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Paneer Tadka",
+      "description": "A delicious paneer tadka made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 295,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Curry / Kasha",
+      "description": "A delicious chicken curry / kasha made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 335,
+      "Gluten-Free": "No",
+      "Spice-Level": "Medium"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Korma / Do Plaza (Boneless 3 pcs)",
+      "description": "A delicious chicken korma / do plaza (boneless 3 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 355,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Bharta (Shredded)",
+      "description": "A delicious chicken bharta (shredded) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 405,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Kadhai Chicken (Bone 4 pcs)",
+      "description": "A delicious kadhai chicken (bone 4 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 425,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Saag / Tadka (Bone)",
+      "description": "A delicious chicken saag / tadka (bone) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 385,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Azad Hind Spl. Chicken (Shredded)",
+      "description": "A delicious azad hind spl. chicken (shredded) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 475,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 2,
+      "restaurant_name": "Azad Hind Dhaba",
+      "dish_name": "Chicken Handi (Bone 6 pcs)",
+      "description": "A delicious chicken handi (bone 6 pcs) made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 425,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Margherita Small",
+      "description": "A delicious margherita small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Margherita Medium",
+      "description": "A delicious margherita medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 195,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Margherita Large",
+      "description": "A delicious margherita large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 285,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Cheese Small",
+      "description": "A delicious cheese small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 115,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Cheese Medium",
+      "description": "A delicious cheese medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 195,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Cheese Large",
+      "description": "A delicious cheese large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 285,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Tropical Veggie Small",
+      "description": "A delicious tropical veggie small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 140,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Tropical Veggie Medium",
+      "description": "A delicious tropical veggie medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Tropical Veggie Large",
+      "description": "A delicious tropical veggie large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 315,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Veg Small",
+      "description": "A delicious hot & spicy veg small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 140,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Veg Medium",
+      "description": "A delicious hot & spicy veg medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Veg Large",
+      "description": "A delicious hot & spicy veg large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 315,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Veggie Supreme Small",
+      "description": "A delicious veggie supreme small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 185,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Veggie Supreme Medium",
+      "description": "A delicious veggie supreme medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 290,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Veggie Supreme Large",
+      "description": "A delicious veggie supreme large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 385,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Mushroom Lovers Small",
+      "description": "A delicious mushroom lovers small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 185,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Mushroom Lovers Medium",
+      "description": "A delicious mushroom lovers medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Mushroom Lovers Large",
+      "description": "A delicious mushroom lovers large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Vegetarian",
+      "Price": 325,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hawaiian Small",
+      "description": "A delicious hawaiian small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 166,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hawaiian Medium",
+      "description": "A delicious hawaiian medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 265,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hawaiian Large",
+      "description": "A delicious hawaiian large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 366,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Pepperoni Small",
+      "description": "A delicious pepperoni small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 166,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Pepperoni Medium",
+      "description": "A delicious pepperoni medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 265,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Pepperoni Large",
+      "description": "A delicious pepperoni large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 366,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Italian Meat Small",
+      "description": "A delicious italian meat small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 190,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Italian Meat Medium",
+      "description": "A delicious italian meat medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 310,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Italian Meat Large",
+      "description": "A delicious italian meat large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 430,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Double Meat Small",
+      "description": "A delicious bbq double meat small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 205,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Double Meat Medium",
+      "description": "A delicious bbq double meat medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 335,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Double Meat Large",
+      "description": "A delicious bbq double meat large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Meat Lovers Small",
+      "description": "A delicious meat lovers small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 205,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Meat Lovers Medium",
+      "description": "A delicious meat lovers medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 335,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Meat Lovers Large",
+      "description": "A delicious meat lovers large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Super Supreme Small",
+      "description": "A delicious super supreme small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 205,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Super Supreme Medium",
+      "description": "A delicious super supreme medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 335,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Super Supreme Large",
+      "description": "A delicious super supreme large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Sweet Chili Chicken Small",
+      "description": "A delicious sweet chili chicken small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 160,
+      "Gluten-Free": "Yes",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Sweet Chili Chicken Medium",
+      "description": "A delicious sweet chili chicken medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 245,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Sweet Chili Chicken Large",
+      "description": "A delicious sweet chili chicken large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 385,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Chicken Small",
+      "description": "A delicious hot & spicy chicken small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 160,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Chicken Medium",
+      "description": "A delicious hot & spicy chicken medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 245,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Hot & Spicy Chicken Large",
+      "description": "A delicious hot & spicy chicken large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 385,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken & Mushroom Small",
+      "description": "A delicious chicken & mushroom small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 160,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken & Mushroom Medium",
+      "description": "A delicious chicken & mushroom medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 245,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken & Mushroom Large",
+      "description": "A delicious chicken & mushroom large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 385,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Fajita Small",
+      "description": "A delicious chicken fajita small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 180,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Fajita Medium",
+      "description": "A delicious chicken fajita medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 290,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Fajita Large",
+      "description": "A delicious chicken fajita large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 405,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Chicken Small",
+      "description": "A delicious bbq chicken small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 180,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Chicken Medium",
+      "description": "A delicious bbq chicken medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 290,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "BBQ Chicken Large",
+      "description": "A delicious bbq chicken large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 405,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Supreme Small",
+      "description": "A delicious chicken supreme small made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 180,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Supreme Medium",
+      "description": "A delicious chicken supreme medium made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 290,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chicken Supreme Large",
+      "description": "A delicious chicken supreme large made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 435,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Steakhouse Fries Regular",
+      "description": "A delicious steakhouse fries regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 165,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Chili Fries Regular",
+      "description": "A delicious chili fries regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 165,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Cheesy Fries Regular",
+      "description": "A delicious cheesy fries regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 175,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Plain Garlic Bread Regular",
+      "description": "A delicious plain garlic bread regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 80,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Spicy Garlic Bread Regular",
+      "description": "A delicious spicy garlic bread regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 90,
+      "Gluten-Free": "No",
+      "Spice-Level": "Spicy"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Cheesy Garlic Bread Regular",
+      "description": "A delicious cheesy garlic bread regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 100,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "3 Bone-in Wings Regular",
+      "description": "A delicious 3 bone-in wings regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 180,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "6 Bone-in Wings Regular",
+      "description": "A delicious 6 bone-in wings regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 350,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "9 Bone-in Wings Regular",
+      "description": "A delicious 9 bone-in wings regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 225,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Extra Cheese Regular",
+      "description": "A delicious extra cheese regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 30,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Extra Olive Regular",
+      "description": "A delicious extra olive regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 40,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  },
+  {
+      "restaurant_id": 1,
+      "restaurant_name": "Pizza Hut",
+      "dish_name": "Extra Pineapple Regular",
+      "description": "A delicious extra pineapple regular made with fresh ingredients and rich flavors.",
+      "dietary_info": "Non-Vegetarian",
+      "Price": 60,
+      "Gluten-Free": "No",
+      "Spice-Level": "Mild"
+  }
+]

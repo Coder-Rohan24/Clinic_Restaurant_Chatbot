@@ -1,0 +1,137 @@
+[
+  {
+      "doctor_id":1,
+      "name":"Aarav Mehta",
+      "specialization":"Cardiology",
+      "availability":"{\"Monday\": [\"15:00-19:00\"], \"Tuesday\": [\"15:00-19:00\"], \"Wednesday\": [\"15:00-19:00\"], \"Thursday\": [\"15:00-19:00\"], \"Friday\": [\"15:00-19:00\"]}",
+      "consultation_fee":1514.09,
+      "rating":4.1,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":2,
+      "name":"Nisha Kapoor",
+      "specialization":"Dermatology",
+      "availability":"{\"Monday\": [\"14:00-16:00\"], \"Tuesday\": [\"14:00-16:00\"], \"Wednesday\": [\"14:00-16:00\"], \"Thursday\": [\"14:00-16:00\"], \"Friday\": [\"14:00-16:00\"]}",
+      "consultation_fee":1929.98,
+      "rating":5.0,
+      "max_patients_per_slot":2
+  },
+  {
+      "doctor_id":3,
+      "name":"Rajiv Sharma",
+      "specialization":"Neurology",
+      "availability":"{\"Monday\": [\"8:00-11:00\"], \"Tuesday\": [\"8:00-11:00\"], \"Wednesday\": [\"8:00-11:00\"], \"Thursday\": [\"8:00-11:00\"], \"Friday\": [\"8:00-11:00\"]}",
+      "consultation_fee":1692.28,
+      "rating":3.7,
+      "max_patients_per_slot":3
+  },
+  {
+      "doctor_id":4,
+      "name":"Sneha Verma",
+      "specialization":"Orthopedics",
+      "availability":"{\"Monday\": [\"15:00-18:00\"], \"Tuesday\": [\"15:00-18:00\"], \"Wednesday\": [\"15:00-18:00\"], \"Thursday\": [\"15:00-18:00\"], \"Friday\": [\"15:00-18:00\"]}",
+      "consultation_fee":1619.92,
+      "rating":4.0,
+      "max_patients_per_slot":3
+  },
+  {
+      "doctor_id":5,
+      "name":"Arjun Malhotra",
+      "specialization":"Pediatrics",
+      "availability":"{\"Monday\": [\"15:00-19:00\"], \"Tuesday\": [\"15:00-19:00\"], \"Wednesday\": [\"15:00-19:00\"], \"Thursday\": [\"15:00-19:00\"], \"Friday\": [\"15:00-19:00\"]}",
+      "consultation_fee":1772.55,
+      "rating":5.0,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":6,
+      "name":"Kavita Iyer",
+      "specialization":"Gynecology",
+      "availability":"{\"Monday\": [\"10:00-12:00\"], \"Tuesday\": [\"10:00-12:00\"], \"Wednesday\": [\"10:00-12:00\"], \"Thursday\": [\"10:00-12:00\"], \"Friday\": [\"10:00-12:00\"]}",
+      "consultation_fee":665.74,
+      "rating":5.0,
+      "max_patients_per_slot":2
+  },
+  {
+      "doctor_id":7,
+      "name":"Vikram Rao",
+      "specialization":"Psychiatry",
+      "availability":"{\"Monday\": [\"9:00-13:00\"], \"Tuesday\": [\"9:00-13:00\"], \"Wednesday\": [\"9:00-13:00\"], \"Thursday\": [\"9:00-13:00\"], \"Friday\": [\"9:00-13:00\"]}",
+      "consultation_fee":945.16,
+      "rating":4.4,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":8,
+      "name":"Priya Nair",
+      "specialization":"Urology",
+      "availability":"{\"Monday\": [\"14:00-18:00\"], \"Tuesday\": [\"14:00-18:00\"], \"Wednesday\": [\"14:00-18:00\"], \"Thursday\": [\"14:00-18:00\"], \"Friday\": [\"14:00-18:00\"]}",
+      "consultation_fee":622.09,
+      "rating":4.5,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":9,
+      "name":"Sameer Khanna",
+      "specialization":"Ophthalmology",
+      "availability":"{\"Monday\": [\"9:00-11:00\"], \"Tuesday\": [\"9:00-11:00\"], \"Wednesday\": [\"9:00-11:00\"], \"Thursday\": [\"9:00-11:00\"], \"Friday\": [\"9:00-11:00\"]}",
+      "consultation_fee":520.9,
+      "rating":3.6,
+      "max_patients_per_slot":2
+  },
+  {
+      "doctor_id":10,
+      "name":"Deepika Joshi",
+      "specialization":"ENT",
+      "availability":"{\"Monday\": [\"15:00-19:00\"], \"Tuesday\": [\"15:00-19:00\"], \"Wednesday\": [\"15:00-19:00\"], \"Thursday\": [\"15:00-19:00\"], \"Friday\": [\"15:00-19:00\"]}",
+      "consultation_fee":828.55,
+      "rating":3.8,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":11,
+      "name":"Rohit Bansal",
+      "specialization":"Endocrinology",
+      "availability":"{\"Monday\": [\"15:00-18:00\"], \"Tuesday\": [\"15:00-18:00\"], \"Wednesday\": [\"15:00-18:00\"], \"Thursday\": [\"15:00-18:00\"], \"Friday\": [\"15:00-18:00\"]}",
+      "consultation_fee":1229.9,
+      "rating":3.9,
+      "max_patients_per_slot":3
+  },
+  {
+      "doctor_id":12,
+      "name":"Manisha Goyal",
+      "specialization":"Gastroenterology",
+      "availability":"{\"Monday\": [\"15:00-19:00\"], \"Tuesday\": [\"15:00-19:00\"], \"Wednesday\": [\"15:00-19:00\"], \"Thursday\": [\"15:00-19:00\"], \"Friday\": [\"15:00-19:00\"]}",
+      "consultation_fee":1547.07,
+      "rating":4.5,
+      "max_patients_per_slot":4
+  },
+  {
+      "doctor_id":13,
+      "name":"Kunal Sen",
+      "specialization":"Nephrology",
+      "availability":"{\"Monday\": [\"15:00-17:00\"], \"Tuesday\": [\"15:00-17:00\"], \"Wednesday\": [\"15:00-17:00\"], \"Thursday\": [\"15:00-17:00\"], \"Friday\": [\"15:00-17:00\"]}",
+      "consultation_fee":888.89,
+      "rating":4.7,
+      "max_patients_per_slot":2
+  },
+  {
+      "doctor_id":14,
+      "name":"Swati Deshmukh",
+      "specialization":"Pulmonology",
+      "availability":"{\"Monday\": [\"11:00-13:00\"], \"Tuesday\": [\"11:00-13:00\"], \"Wednesday\": [\"11:00-13:00\"], \"Thursday\": [\"11:00-13:00\"], \"Friday\": [\"11:00-13:00\"]}",
+      "consultation_fee":874.75,
+      "rating":4.1,
+      "max_patients_per_slot":2
+  },
+  {
+      "doctor_id":15,
+      "name":"Aditya Choudhary",
+      "specialization":"Oncology",
+      "availability":"{\"Monday\": [\"10:00-14:00\"], \"Tuesday\": [\"10:00-14:00\"], \"Wednesday\": [\"10:00-14:00\"], \"Thursday\": [\"10:00-14:00\"], \"Friday\": [\"10:00-14:00\"]}",
+      "consultation_fee":1673.07,
+      "rating":4.6,
+      "max_patients_per_slot":4
+  }
+]
