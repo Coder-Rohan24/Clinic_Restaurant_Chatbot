@@ -3,12 +3,18 @@ import { useState } from "react";
 export default function Chatbot({ apiEndpoint }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false); // NEW
 
   const sendMessage = async () => {
     if (!input.trim()) return;
 
     const userMessage = { role: "user", text: input };
     setMessages((prev) => [...prev, userMessage]);
+
+    // Show loading placeholder
+    const loadingMsg = { role: "bot", text: "🤖 AI is generating a response..." };
+    setMessages((prev) => [...prev, loadingMsg]);
+    setLoading(true);
 
     try {
       const res = await fetch(apiEndpoint, {
@@ -18,13 +24,22 @@ export default function Chatbot({ apiEndpoint }) {
       });
 
       const data = await res.json();
-      setMessages((prev) => [...prev, { role: "bot", text: data.reply }]);
+
+      // Replace the loading message with the actual reply
+      setMessages((prev) => [
+        ...prev.slice(0, -1), // remove last loading message
+        { role: "bot", text: data.reply }
+      ]);
     } catch (error) {
       console.error("API Error:", error);
-      setMessages((prev) => [...prev, { role: "bot", text: "Sorry, something went wrong." }]);
+      setMessages((prev) => [
+        ...prev.slice(0, -1),
+        { role: "bot", text: "⚠️ Sorry, something went wrong. Please try again." }
+      ]);
     }
 
     setInput("");
+    setLoading(false);
   };
 
   return (
@@ -48,12 +63,14 @@ export default function Chatbot({ apiEndpoint }) {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Ask something..."
+          disabled={loading} // Prevent user typing during processing
         />
         <button
           onClick={sendMessage}
-          className="ml-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
+          className={`ml-2 px-4 py-2 rounded-lg transition text-white ${loading ? "bg-gray-400 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700"}`}
+          disabled={loading}
         >
-          Send
+          {loading ? "Wait..." : "Send"}
         </button>
       </div>
     </div>
