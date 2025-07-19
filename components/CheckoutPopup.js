@@ -10,7 +10,7 @@ export default function CheckoutPopup({ doctor, closePopup }) {
   }, []);
 
   const popup = (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center animate-fade-in">
+    <div className="fixed inset-0 z-50 bg-black bg-opacity-10 flex justify-center items-center animate-fade-in">
       <div className="bg-white p-6 rounded-lg shadow-lg w-96">
         <h2 className="text-xl font-semibold">Confirm Appointment</h2>
         <p className="mt-2 text-gray-600">Doctor: {doctor.name}</p>
